@@ -91,7 +91,7 @@
 	  fis4 (fis2. fis4)
 	  fis8. (f16 fis8)
 	  b,8 (b8) dis8
-	  fis2 (fis2.)
+	  fis2 (fis2._"Poslední opakování -> rovou secunda volta")
 	  b8. (as16 g2)
 	}
 
