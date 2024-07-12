@@ -3,13 +3,14 @@
 \markup { \fill-line { \bold "Blueberry Hill (Tsax)" } }
 \score {
   \new Staff {
+    \set Score.dalSegnoTextFormatter = #format-dal-segno-text-brief
     \time 4/4
     \key c \major
     \clef treble
     \relative c' {
-      \repeat segno 2 {
-	c8. c16 e8. e16 g8. g16 c4
-	(c1) 
+      \repeat segno 3 {
+	<c c'>8._"Krom prvního vždy nahoře" <c c'>16 <e b'>8. <e b'>16 <g bes>8. <g bes>16 <c a>4
+	(<c a>1) 
 	c8. a16 f8. c8. a'8 g4	
 	(g1) 
 	e8. e16 c8. g8.
@@ -17,36 +18,59 @@
 	
 
 	e'8 d4 (d1)
-	d8. d16 c4 (c8) d8
- 	e4 (e8.) d16 e8. d16 e8. f16 g4 	  
+	d8. d16 c4 (c8) d8 
 
-	c8. c16 b8. b16 bes8. bes16 a4
-	(a1) 
-	c8. a16 f8. c8. 
-	a'8 g4 (g1)
-	e8. e16 c8. g8. e'8 d4
-	(d1) 
-	d8. d16 
-	c4 (c8) d8 
-	\tuplet 3/2 {e8 d8 c8} 
-	(c2.) r4
+	<<
+    	  \new Voice = "one" {
+      	  \voiceOne
+      	    e4
+    	  }
+    	  \new Voice = "two" {
+      	    \voiceTwo
+              \tuplet 3/2 { e8 d c }
+         }
+  	>>
 	
-	\repeat volta 2 {
-	  g'8 a8 g8 d8
-	  (d8) e16 (f16 g4 g1) 
-	}
+	\alternative {
+          \volta 1,2 {
+	    e8. d16 e8. d16 e8. f16 g4 	  
 
-	\repeat volta 2 {
-	  g8. g16 fis8 g4 a8 b4
-	  (b1)
-	}
+	    c8. c16 b8. b16 bes8. bes16 a4
+	    (a1) 
+	    c8. a16 f8. c8. 
+	    a'8 g4 (g1)
+	    e8. e16 c8. g8. e'8 d4
+	    (d1) 
+	    d8. d16 
+	    c4 (c8) d8 
+	    \tuplet 3/2 {e8 d8 c8} 
+	    (c2.) r4
+	
+	    \repeat volta 2 {
+	      g'8 a8 g8 d8
+	      (d8) e16 (f16 g4 g1) 
+	    }
 
+	    \repeat volta 2 {
+	      g8. g16 fis8 g4 a8 b4
+	      (b1)
+	    }
+	  }
+	    
+	  \volta 3 \volta #'() {
+            \section
+            \sectionLabel "Coda"
+          }
+	}
       }
-	        \section
-        \sectionLabel "Coda"
-	g1
-	\fine
-    }
+      
+      \tuplet 3/2 { c,8 d8 e8}	
+      f4 
+      \tuplet 3/2 { f8^"rit." e8 d8 }
+      c4 \fermata
+      \fine
+    
+    }  
   }
   \header {
     title = "Blueberry Hill"
@@ -56,7 +80,7 @@
 \markup { \fill-line { \bold "První signální (Tsax)" } }
 \score {
   \new Staff {
-    \time 4/4
+    \time 2/2
     \key c \major
     \clef treble
     \relative c' {
@@ -78,7 +102,7 @@
 \markup { \fill-line { \bold "První signální alternativa (Tsax)" } }
 \score {
   \new Staff {
-    \time 4/4
+    \time 2/2
     \key c \major
     \clef treble
     \relative c' {
