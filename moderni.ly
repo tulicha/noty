@@ -84,13 +84,13 @@
     \key c \major
     \clef treble
     \relative c' {
-	g''1 
-	(g2) fis8 g8 fis8 d8
-	e1
-	(e2) d8 e8 g8 fis8
-	g1
-	(g2) r4 g8 a8
-	g1
+	b''1 
+	(b2) bes8 b8 bes8 fis8
+	gis1
+	(gis2) fis8 gis8 b8 bes8
+	b1
+	(b2) r4 b8 cis8
+	b1
 	\bar "|."
     }
   }
@@ -98,29 +98,6 @@
     title = "První signální"
   }
 }
-
-\markup { \fill-line { \bold "První signální alternativa (Tsax)" } }
-\score {
-  \new Staff {
-    \time 2/2
-    \key c \major
-    \clef treble
-    \relative c' {
-	gis''1 
-	(gis2) g8 gis8 g8 dis8
-	f1
-	(f2) dis8 f8 gis8 g8
-	gis1
-	(gis2) r4 gis8 ais8
-	gis1
-	\bar "|."
-    }
-  }
-  \header {
-    title = "První signální"
-  }
-}
-
 
 \markup { \fill-line { \bold "První polibek (Tsax)" } }
 \score {
