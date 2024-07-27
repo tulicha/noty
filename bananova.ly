@@ -73,8 +73,24 @@
       \tuplet 3/2 {b4 a4 g4}		
       g4. g8 b4 \tuplet 3/2 {a8 g8 fis8}
       a4. a8 c4 \tuplet 3/2 {b8 a8 g8}
-	
+      g4 g'4 \tuplet 3/2 {f4 e4 d4} 
+      c4 r4	
   	   
+      \break
+      \textMark "..dáváš lekce sousedům"
+      r1^\fermata 
+      g4 b4 d4 b8 d8     
+      g,2 r2
+
+      \repeat volta 3 {
+        g8 e'4. c4 r4
+	\tuplet 3/2 {c4 c4 c4} \tuplet 3/2 {c4 b4 c4}
+
+        g8 d'4. b4 r4
+ 	\tuplet 3/2 {b4 b4 b4} \tuplet 3/2 {b4 a4^"rep 6x" b4}
+      }
+      r1^"přesně nevím"
+      
       }
   }
   \header {

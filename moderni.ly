@@ -9,7 +9,7 @@
     \clef treble
     \relative c' {
       \repeat segno 3 {
-	<c c'>8._"Krom prvního vždy nahoře" <c c'>16 <e b'>8. <e b'>16 <g bes>8. <g bes>16 <c a>4
+	<c c'>8. <c c'>16 <e b'>8. <e b'>16 <g bes>8. <g bes>16 <c a>4
 	(<c a>1) 
 	c8. a16 f8. c8. a'8 g4	
 	(g1) 
@@ -35,8 +35,8 @@
           \volta 1,2 {
 	    e8. d16 e8. d16 e8. f16 g4 	  
 
-	    c8. c16 b8. b16 bes8. bes16 a4
-	    (a1) 
+	    <c, c'>8. <c c'>16 <e b'>8. <e b'>16 <g bes>8. <g bes>16 <c a>4
+	    (<c a>1) 
 	    c8. a16 f8. c8. 
 	    a'8 g4 (g1)
 	    e8. e16 c8. g8. e'8 d4
@@ -77,53 +77,6 @@
   }
 }
 
-\markup { \fill-line { \bold "První signální (Tsax)" } }
-\score {
-  \new Staff {
-    \time 2/2
-    \key c \major
-    \clef treble
-    \relative c' {
-	b''1 
-	(b2) bes8 b8 bes8 fis8
-	gis1
-	(gis2) fis8 gis8 b8 bes8
-	b1
-	(b2) r4 b8 cis8
-	b1
-	\bar "|."
-    }
-  }
-  \header {
-    title = "První signální"
-  }
-}
-
-\markup { \fill-line { \bold "První polibek (Tsax)" } }
-\score {
-  \new Staff {
-    \time 4/4
-    \key c \major
-    \clef treble
-    \relative c' {
-	fis'4 g4 a2
-	(a2.) a4
-	g1
-	a4 g4 g2
-	fis4 g2 fis4
-	g8 fis8 g2
- 	r4 fis4 g4 a2     
-	(a2.) a4
-	g1
-	a4 g4 fis2
-	(fis1 \time 3/4 fis2.)
-	\bar "|."
-    }
-  }
-  \header {
-    title = "První polibek/brutus"
-  }
-}
  
 
 \markup { \fill-line { \bold "Plavba (Tsax)" } }
@@ -185,4 +138,51 @@
    }
 }
 
+\markup { \fill-line { \bold "První signální (Tsax)" } }
+\score {
+  \new Staff {
+    \time 2/2
+    \key c \major
+    \clef treble
+    \relative c' {
+	b''1 
+	(b2) bes8 b8 bes8 fis8
+	gis1
+	(gis2) fis8 gis8 b8 bes8
+	b1
+	(b2) r4 b8 cis8
+	b1
+	\bar "|."
+    }
+  }
+  \header {
+    title = "První signální"
+  }
+}
+
+\markup { \fill-line { \bold "První polibek (Tsax)" } }
+\score {
+  \new Staff {
+    \time 4/4
+    \key c \major
+    \clef treble
+    \relative c' {
+	<fis' d'>4 g4 a2
+	(a2.) a4
+	g1
+	a4 g4 g2
+	fis4 g2 fis4
+	g8 fis8 g2
+ 	r4 fis4 g4 a2     
+	(a2.) a4
+	g1
+	a4 g4 fis2
+	(fis1 \time 3/4 fis2.)
+	\bar "|."
+    }
+  }
+  \header {
+    title = "První polibek/brutus"
+  }
+}
 
