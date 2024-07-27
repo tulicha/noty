@@ -31,8 +31,8 @@
       \repeat volta 2 {
         r4 c4 r4 c4
         r4 c4 r4 c4
-        r2. g8 e8 
-        d8 g8 g8 r8 r2
+        r2. r8 g8 
+        e8. d16 g8. g16 r2
       }
       c2 c2 
       cis2 cis2
