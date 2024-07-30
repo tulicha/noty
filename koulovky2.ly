@@ -13,16 +13,16 @@
 	fis4 fis8 (e8) fis4 fis8 (e8)
 	fis4 fis8 (e8) fis8 (g8) e8 (fis8)
 	d1
-    	b4 b8 a8 b8 (c8 d8 e8)
+    	\parenthesize b4 b8 a8 b8 (c8 d8 e8)
 	fis4 fis8 (e8) fis4 fis8 (e8)
 	fis4 fis8 (e8) d8 (e8) c8 (d8)
 	b1
     	
-	b4 b8 a8 b8 (c8 d8 e8)
+	\parenthesize b4 b8 a8 b8 (c8 d8 e8)
 	fis4 fis8 (e8) fis4 fis8 (e8)
-	fis4 e8 (fis8) fis8 (g8) e8 fis8
+	fis4 e8 (fis8) fis8 (g8) e8 (fis)
 	d1
-    	b4 b8 a8 b8 (c8 d8 e8)
+    	\parenthesize b4 b8 a8 b8 (c8 d8 e8)
 	fis4 fis8 (e8) fis4 fis8 (e8)
 	fis4 e8 (fis8) d8 (e8) c8 (d8)
 	b1
