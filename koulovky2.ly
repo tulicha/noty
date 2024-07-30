@@ -11,16 +11,16 @@
     	b'4 b8 a8 b8 (c8 d8 e8)
 	\repeat volta 2 {
 	fis4 fis8 (e8) fis4 fis8 (e8)
-	fis4 fis8 (e8) fis8 (g8) e8 fis8
+	fis4 fis8 (e8) fis8 (g8) e8 (fis8)
 	d1
     	b4 b8 a8 b8 (c8 d8 e8)
 	fis4 fis8 (e8) fis4 fis8 (e8)
-	fis4 e8 (fis8) d8 (e8) c8 (d8)
+	fis4 fis8 (e8) d8 (e8) c8 (d8)
 	b1
     	
 	b4 b8 a8 b8 (c8 d8 e8)
 	fis4 fis8 (e8) fis4 fis8 (e8)
-	fis4 fis8 (e8) fis8 (g8) e8 fis8
+	fis4 e8 (fis8) fis8 (g8) e8 fis8
 	d1
     	b4 b8 a8 b8 (c8 d8 e8)
 	fis4 fis8 (e8) fis4 fis8 (e8)
@@ -28,14 +28,14 @@
 	b1
  
 	%%%%%%%%%%%%%%%%%%%%%%%%%%
-	r4 d4 (e4 c4) 
+	r4 d4 (e4 fis4) 
 	d2 d2
 	r8 d8 c8 d8 e4 d4 fis2 fis2 
 	r8 fis8 e8 fis8 g4 fis4 
  	e2 e2
 	r8 e8 d8 e8 fis4 d4 
 	b1
-	r4 d4 e4 c4 
+	r4 d4 e4 fis4 
 	d2 d2 
 	r8 d8 c8 d8 e4 d4 
 	fis2 fis2
