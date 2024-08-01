@@ -72,9 +72,13 @@
       e4 d4 c2
       \tuplet 3/2 {b4 a4 g4}		
       g4. g8 b4 \tuplet 3/2 {a8 g8 fis8}
-      a4. a8 c4 \tuplet 3/2 {b8 a8 g8}
-      g4 g'4 \tuplet 3/2 {f4 e4 d4} 
-      c4 r4	
+      a4. a8 
+      
+      \time 3/4
+      c4 \tuplet 3/2 {b8 a8 g8} g4 
+     
+      \time 4/4
+      \tuplet 3/2 {fis4 fis4 fis4} e4 fis4 g2  r2
   	   
       \break
       \textMark "..dáváš lekce sousedům"

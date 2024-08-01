@@ -11,13 +11,13 @@
       \repeat segno 3 {
 	<c c'>8. <c c'>16 <e b'>8. <e b'>16 <g bes>8. <g bes>16 <c a>4
 	(<c a>1) 
-	c8. a16 f8. c8. a'8 g4	
+	a8. a16 f8. c8. a'8 g4	
 	(g1) 
-	e8. e16 c8. g8.
+	e8. e16 c4.
 	
 	
 
-	e'8 d4 (d1)
+	e8 d4 (d1)
 	d8. d16 c4 (c8) d8 
 
 	<<
@@ -37,9 +37,9 @@
 
 	    <c, c'>8. <c c'>16 <e b'>8. <e b'>16 <g bes>8. <g bes>16 <c a>4
 	    (<c a>1) 
-	    c8. a16 f8. c8. 
+	    a8. a16 f8. c8. 
 	    a'8 g4 (g1)
-	    e8. e16 c8. g8. e'8 d4
+	    e8. e16 c4. e8 d4
 	    (d1) 
 	    d8. d16 
 	    c4 (c8) d8 

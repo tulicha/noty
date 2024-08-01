@@ -60,22 +60,23 @@
       } 
  
       \section
-      \sectionLabel "Intro #2"
-      \tuplet 3/2 {e4 fis4 gis4} a2
-      (a2) fis4 r4
-      \tuplet 3/2 {e4 fis4 gis4} a2
-      (a2) b4 r4
-      
-      \tuplet 3/2 {e,4 fis4 gis4} a2
-      (a2) fis4 r4
-      \tuplet 3/2 {e4 fis4 gis4} a2
-      (a2) b8 b8 b8 b8
-
-      \section
-      \sectionLabel "Konec?"
+      \sectionLabel "Konec"
       \repeat volta 2 {
-        a,4 cis4 e4 fis4 e4
+        a,4 r4 cis4  r4 e4 
+        r8 fis8 (fis4)  \tuplet 3/2 {e8 fis8 e8}
+        
+        a,4 r4 cis4 r4 r4 e4 r2
+        
+        a,4 r4 cis4  r4 e4 
+        r8 fis8 (fis4)  \tuplet 3/2 {e8 fis8 e8}
+        
+        a,4 r4 cis4 r4 e4 r2.
       }
+      
+      \section
+      \sectionLabel "Konec Po druhé (pouze noty)"
+      \tuplet 3/2 {e4 cis4 b4} a2 
+      
     }
   }
   \header {
