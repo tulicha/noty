@@ -58,37 +58,18 @@
       g4 ges4 f4 e4
       d2 r4 d4
       d2 r2
-      a'1
-      (a2.) d,4
-      a'2 d2
-      
-      r2. a8 b8
-      d2 d2
-      d2 d4 d4
-      d2 fis2
-  
-      (fis2.) a,8 b8
-      d2 d2
-      d2 d4 d4
-      b4 a4 g2
-      (g2) r2
-      
-      d'4. r8 d4. d8 
-      r4 d4 d4 (f4)
-      d4 r4 d4. d8
-      r4 d4 d4 (b4)
-      
-      d4. r8 d4. d8 
-      r4 d4 d4 (f4)
- 
-      d4 d4 des4 c4
-      b4 bes4 b2     
-      
-      r2. b4
-      b2 d2
-      \tuplet 3/2 {d4 e4 d4} b4 a8 b8
-      (b2) fis'2^\fermata	
 
+      d2. d4
+      d4. a'8 (a2)
+      d,2. d4
+      d4. a'8 (a2)
+      d,2. d4
+      d4. a'8 (a2
+
+      a1^\fermata)
+      \tuplet 3/2 {b4 c4 cis4}
+      d2^\fermata
+      \bar "|."
     }
   }
   \header {

@@ -145,7 +145,7 @@
     \key c \major
     \clef treble
     \relative c' {
-	b''1 
+	b'1 
 	(b2) bes8 b8 bes8 fis8
 	gis1
 	(gis2) fis8 gis8 b8 bes8
@@ -167,17 +167,17 @@
     \key c \major
     \clef treble
     \relative c' {
-	<fis' d'>4 g4 a2
-	(a2.) a4
-	g1
-	a4 g4 g2
-	fis4 g2 fis4
-	g8 fis8 g2
- 	r4 fis4 g4 a2     
-	(a2.) a4
-	g1
-	a4 g4 fis2
-	(fis1 \time 3/4 fis2.)
+	<fis' d'>4 <g e'>4 <a fis'>2
+	(<a fis'>2.) <a fis'>4
+	<g e'>1
+	<a fis'>4 <g e'>4 <g e'>2
+	<fis d'>4 <g e'>2 <fis d'>4
+	<g e'>8 <fis d'>8 <g e'>2
+ 	r4 <fis d'>4 <g e'>4 <a fis'>2     
+	(<a fis'>2.) <a fis'>4
+	<g e'>1
+	<a fis'>4 <g e'>4 <fis d'>2
+	(<fis d'>1 \time 3/4 <fis d'>2.)
 	\bar "|."
     }
   }
