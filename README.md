@@ -18,4 +18,5 @@ Tento repozitář slouží pro uložení notových zápisů a to jak zdrojových
 - ? Líto ?
 
 ## TODO-Dodělat
+- Koulovky, mezihra
 - Banánová zábava
