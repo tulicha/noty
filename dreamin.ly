@@ -2,6 +2,9 @@
 
 
 \markup { \fill-line { \bold "Dreamin'" } }
+  \header {
+    tagline = "FORTUNA (fortunamuzika.cz) – Ondřej Slavík, 2024" 
+  }
 \score {
   \new Staff {
     \time 4/4

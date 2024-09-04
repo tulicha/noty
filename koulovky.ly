@@ -1,6 +1,9 @@
 \version "2.24.3"
 
 \markup { \fill-line { \bold "Ty musíš (koulovky/Tsax)" } }
+  \header {
+    tagline = "FORTUNA (fortunamuzika.cz) – Ondřej Slavík, 2024" 
+  }
 \score {
   \new Staff {
     \time 2/4

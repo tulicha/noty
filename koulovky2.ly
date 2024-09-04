@@ -2,6 +2,9 @@
 %\bar "|."
 
 \markup { \fill-line { \bold "Děti z Pirea (Tsax)" } }
+  \header {
+    tagline = "FORTUNA (fortunamuzika.cz) – Ondřej Slavík, 2024" 
+  }
 \score {
   \new Staff {
     \time 4/4

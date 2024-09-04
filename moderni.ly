@@ -1,6 +1,9 @@
 \version "2.24.3"
 
 \markup { \fill-line { \bold "Blueberry Hill (Tsax)" } }
+  \header {
+    tagline = "FORTUNA (fortunamuzika.cz) – Ondřej Slavík, 2024" 
+  }
 \score {
   \new Staff {
     \set Score.dalSegnoTextFormatter = #format-dal-segno-text-brief
@@ -145,14 +148,25 @@
     \key c \major
     \clef treble
     \relative c' {
+ 
+        r1^"Jaký si to uděláš, takový to máš (raz dva)" r1 r1 r1 r1
+        r1^"Jaký si to uděláš, takový to máš (raz dva)" r1 r1 r1 r1
+   
+        \break
+        \section
+        \sectionLabel "Hraj"
 	b'1 
 	(b2) bes8 b8 bes8 fis8
 	gis1
 	(gis2) fis8 gis8 b8 bes8
 	b1
-	(b2) r4 b8 cis8
+	(b2) b8 r8 b8 cis8
 	b1
-	\bar "|."
+
+        r1 
+	\repeat volta 2 {
+          cis1 (cis1) b1 (b1 b1 b1) fis1 (fis1)
+        }
     }
   }
   \header {
