@@ -2,7 +2,7 @@
 
 Tento repozitář slouží pro uložení notových zápisů a to jak zdrojových souborů (*.ly) tak výstupů v PDF.
 
-## TODO
+## TODO (check needed!)
 - Na ptáky jsme krátký
 - Mašinka
 - Kaviná
@@ -11,3 +11,11 @@ Tento repozitář slouží pro uložení notových zápisů a to jak zdrojových
 - Kredenc
 - Básník
 - Třetí den
+- Zelená 
+- Slovenský klín
+- ? Rock n roll C-dur ?
+- ? Domovník na Marsu ?
+- ? Líto ?
+
+## TODO-Dodělat
+- Banánová zábava
