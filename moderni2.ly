@@ -120,7 +120,7 @@
 \markup { \fill-line { \bold "Každý ráno" } }
 \score {
   \new Staff {
-    \time 4/4
+    \time 2/2
     \key c \major
     \clef treble
     \relative c' {
@@ -128,10 +128,11 @@
       e'2 es2 
       r1 r1 r1
       e2 es2
-      r1 r2
+      r1 
       
-      a,2 bes2 c2 d4 e4 f2 r8 f8 d8 f8 (f2) 
-	\bar "|."
+      \repeat volta 2 {
+        r2 r8 a,4. bes4 c2. d4 e4 f2 r4 f8 d8 (f2) 
+      }
     }
   }
   \header {
