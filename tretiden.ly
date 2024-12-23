@@ -10,8 +10,12 @@
     \key c \major
     \clef treble
       \relative c' {
-
-	fis4 g4 a2
+        r1
+        r2 fis4 g4 
+        a1 
+        r2 fis4 g4 
+        a1 
+	r1 
 	
 	\repeat volta 2{
   	  \tuplet 3/2 {e'4 fis4 a4}		
