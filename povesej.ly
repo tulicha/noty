@@ -44,7 +44,7 @@
         d4. e8 (e2)
       }
 
-      r1
+      r1 r1
       
       \section
       \sectionLabel "Sólo"
