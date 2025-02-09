@@ -80,7 +80,7 @@
       \tuplet 3/2 {d4 e4 fis4} g1
       d8 d8 d8 d8 r2
     
-      r1 r1 r1 r1 r1 r1 r1 r1 r1 d8^"Tady taky?" d8 d8 d8 r2	
+      r1 r1 r1 r1 r1 r1 r1 r1 r1 d8 d8 d8 d8 r2	
 
       \section
       \sectionLabel "Štěky 2"
