@@ -74,9 +74,12 @@
  
       \section
       \sectionLabel "Vjezd (3x)"
-      \repeat volta 2 {  
         r8 a8 b8 d8 f4 f4 e8. d16 r8 e8 d8 r4.
-      }
+        r1^\fermata
+        r8 a8 b8 d8 fis4 fis4 e8. d16 r8 e8 d8 r4.
+        r1^\fermata
+        r8 a8 b8 d8 f4 f4 e8. d16 r8 e8 d8 r4.
+        r1^\fermata
       
       \section
       \sectionLabel "Po 4. zdvih"
@@ -105,7 +108,7 @@
       \time 4/4
       \repeat volta 2 {
         d,4. b8 (b2) 
-        d4. e8 (e2)
+       d4. e8 (e2)
         d4. b8 (b2) 
         d4. e8 (e2)
       }
