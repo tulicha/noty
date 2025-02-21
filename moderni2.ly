@@ -2,7 +2,7 @@
 
 \markup { \fill-line { \bold "Dederon" } }
   \header {
-    tagline = "FORTUNA (fortunamuzika.cz) – Ondřej Slavík, 2024" 
+    tagline = "FORTUNA (fortunamuzika.cz) – Ondřej Slavík, 2025" 
   }
 \score {
   \new Staff {
@@ -130,9 +130,8 @@
       e2 es2
       r1 
       
-      \repeat volta 2 {
-        r2 r8 a,4. bes4 c2. d4 e4 f2 r4 f8 d8 (f2) 
-      }
+      r2. a,4 (a4) bes4 c2 d4 e4 e8 (f4.) r8 f8 d8 (f2) r8
+      r8 f8 e8 d8 r4 a4 (a4) bes4 c2 d4 e4 e8 (f4.) r8 f8 d8 (f2) r8
     }
   }
   \header {
