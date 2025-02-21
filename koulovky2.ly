@@ -33,14 +33,14 @@
 	%%%%%%%%%%%%%%%%%%%%%%%%%%
 	r4 d4 (e4 fis4) 
 	d2 d2
-	r8 d8 c8 d8 e4 d4 fis2 fis2 
+	r8 d8 cis8 d8 e4 d4 fis2 fis2 
 	r8 fis8 e8 fis8 g4 fis4 
  	e2 e2
 	r8 e8 d8 e8 fis4 d4 
 	b1
 	r4 d4 e4 fis4 
 	d2 d2 
-	r8 d8 c8 d8 e4 d4 
+	r8 d8 cis8 d8 e4 d4 
 	fis2 fis2
 	r8 fis8 e8 fis8 g4 fis4 
 	e2 e2 
