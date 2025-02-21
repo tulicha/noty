@@ -2,7 +2,7 @@
 
 \markup { \fill-line { \bold "Marakéš" } }
   \header {
-    tagline = "FORTUNA (fortunamuzika.cz) – Ondřej Slavík, 2024" 
+    tagline = "FORTUNA (fortunamuzika.cz) – Ondřej Slavík, 2025" 
   }
 \score {
   \new Staff {
@@ -18,6 +18,28 @@
 	  e2 \tuplet 3/2 {cis4 e4 cis4}
 	  c1
 	}
+
+	r2 r8 e8 d8 c8
+	e4 e4
+	d8 (e8) d8 c8 e4 e4
+	r16 c8. c8 d8 e8 (f8) e8 c8
+	d8 e8 d8 c8 c2
+
+	r8 e8 e8 d8 c4 c4
+	d8 e8 d8 c8 e4 e4
+	r8 c8 c8 d8 e8 f8 e8 c8 
+	d8 e8 d8 c8 c2
+
+	r2 e4 e4
+	e4. e8 f8 g8 f8 e8 
+	d2 r8 d8 d8 d8
+	d4. d8 e8 f8 e8 d8 
+	e2 r8 e8 e8 e8
+	e4. e8 f8 g8 f8 e8 
+	d2 r8 d8 d8 d8
+	d4. d8 e8 f8 e8 d8
+	c2 
+	r1
 
         \section
         \sectionLabel "Už třetí týden..."
