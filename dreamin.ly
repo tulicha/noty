@@ -137,7 +137,7 @@
     }
   }
   \header {
-    title = "Dreamin'"
+    title = "Dreamin' (opravit štěky)"
   }
 }
 
