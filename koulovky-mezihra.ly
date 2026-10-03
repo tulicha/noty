@@ -8,10 +8,11 @@
   \new Staff {
     \time 2/4
     \key c \major
-    \relative c'' {
+    \relative c''' {
+      \transpose bes c''' {
       \repeat volta 2 {
-      	d16 (bes16) bes16 bes16 bes16 bes16 bes16 bes16
-	b8 c8 cis8 d8
+      	d16 (bes,16) bes,16 bes,16 bes,16 bes,16 bes,16 bes,16
+	b,8 c8 cis8 d8
 	es16 (d16) d16 d16 d16 d16 d16 d16 
 	d8 es8 f8 g8
 	f16 (a16) a16 a16 a16 (g16) g16 g16
@@ -20,13 +21,13 @@
       \alternative {
         {
           es16 (d16) d16 d16 es8 d8 
-	  bes2
+	  bes,2
         }{
           d8 es16 d16 c16 d16 es16 f16 d8 f8 d4
 	  \bar"|." 
         }
       }
-         
+      }   
     }
   }
   \header {
@@ -44,6 +45,7 @@
     \time 2/4
     \key c \major
     \relative c'' {
+      \transpose bes c''' {
       \repeat volta 2 {
       	d8 (f8) d4
       	d8 (f8) d4
@@ -64,7 +66,7 @@
 	  \bar"|." 
         }
       }
-         
+      }   
     }
   }
   \header {
@@ -81,10 +83,11 @@
     \time 2/4
     \key c \major
     \relative c'' {
+      \transpose bes c''' {
       \repeat volta 2 {
         f8 f16 es16 d8 d16 es16
 	d2
-	f8 f16 e16 d8 d16 es16
+	f8 f16 es16 d8 d16 es16
 	d2
 	c16 d16 es16 d16 c8 es8
 	c8 (es8) es8 c8
@@ -99,7 +102,7 @@
   	  \bar"|." 
         }
       }
-         
+     }    
     }
   }
   \header {
